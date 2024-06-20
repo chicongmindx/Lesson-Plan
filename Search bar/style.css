@@ -1,0 +1,20 @@
+.card {
+    max-width: 18em;
+}
+
+img {
+    height: 18em;
+}
+
+#products {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding: 8em 0;
+}
+
+.hide {
+    display: none;
+}

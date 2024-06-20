@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Firebase</title>
+
+        <link rel="shortcut icon"
+            href="https://th.bing.com/th/id/R.ae2023f3cf5939e3d20136f1f9b5e751?rik=Q8%2fmmF6Mb%2fdbZg&pid=ImgRaw&r=0"
+            type="image/x-icon">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container-fluid bg-dark">
+            <div class="row d-flex justify-content-center align-items-center
+                min-vh-100">
+                <div class="col-md-4">
+                    <div class="card p-4 text-center">
+                        <div class="card-body">
+                            <div class="form-floating mb-2">
+                                <input type="number" id="id"
+                                    class="form-control">
+                                <label for="id">ID No</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <input type="text" id="firstName"
+                                    class="form-control">
+                                <label for="firstName">First Name</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <input type="text" id="lastName"
+                                    class="form-control">
+                                <label for="lastName">Last Name</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <select class="form-select" id="dept">
+                                    <option selected>Development</option>
+                                    <option value="Testing">Testing</option>
+                                    <option value="Management">Management</option>
+                                    <option value="Admin">Admin</option>
+                                </select>
+                                <label for="dept">Department</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <select class="form-select" id="swim">
+                                    <option selected>Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                                <label for="swim">Can swim?</label>
+                            </div>
+
+                            <div class="d-flex justify-content-center
+                                align-items-center">
+                                <button id="add" class="btn btn-success m-2">Add</button>
+                                <button id="ret" class="btn btn-info m-2">Retrieve</button>
+                                <button id="upd" class="btn btn-warning m-2">Update</button>
+                                <button id="del" class="btn btn-danger m-2">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="app.js"></script>
+    </body>
+</html>
